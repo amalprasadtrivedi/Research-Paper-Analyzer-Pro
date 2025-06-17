@@ -1,0 +1,88 @@
+/* style.css – Custom CSS for Research Paper Analyzer Pro */
+
+/* Global background and font */
+body {
+    background-color: #f8f9fa !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+}
+
+/* Center and style the title */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Sidebar improvements */
+.css-1d391kg {  /* Sidebar background */
+    background-color: #e9ecef !important;
+    border-right: 1px solid #dee2e6;
+}
+
+.css-1d391kg h1 {
+    color: #007bff;
+}
+
+/* Section cards */
+.stMarkdown {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* File uploader box */
+.css-1y0tads {
+    border: 2px dashed #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f3f5;
+}
+
+/* Text area (preview text) */
+textarea {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #343a40;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Make text visible inside input boxes on dark background */
+.stTextInput input, .stTextArea textarea {
+    color: black !important;
+    background-color: #1e1e1e !important; /* optional: to match the dark theme */
+    border: 1px solid #444 !important;
+}
