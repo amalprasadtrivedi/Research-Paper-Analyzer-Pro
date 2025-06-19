@@ -1,35 +1,33 @@
-# Core App Dependencies
+# 🔧 Core Dependencies
 streamlit==1.35.0
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.4.2
 joblib==1.4.2
 
-# Text & PDF Processing
-PyMuPDF==1.23.25          # For reading PDF files
-pdfminer.six==20221105    # Alternative PDF parser
+# 📄 PDF and Text Processing
+PyMuPDF==1.23.25              # Used for fast PDF parsing (fitz)
+pdfminer.six==20221105        # Optional alternative PDF parser
 nltk==3.8.1
 spacy==3.7.4
 beautifulsoup4==4.12.3
 
-# Machine Learning & NLP
+# 🤖 Machine Learning / NLP
 sentence-transformers==2.7.0
 xgboost==2.0.3
 torch==2.3.0
 transformers==4.41.2
+sentencepiece==0.2.0          # Required by T5 / BERT tokenizer
 
-# Visualization
+# 📊 Visualization
 matplotlib==3.9.0
 seaborn==0.13.2
 
-# Plagiarism Check & Similarity
+# 📈 Similarity & Stats
 scipy==1.13.0
 
-# Web Utilities
+# 🌐 HTTP Requests
 requests==2.31.0
 
-# Optional (only if you're using HTML iframe rendering for PDFs)
-streamlit.components.v1
-
-# Optional: Streamlit extras and diagnostics
-watchdog==4.0.0
+# 🛠️ Dev Tools (Optional)
+watchdog==4.0.0               # Streamlit auto-reload support
